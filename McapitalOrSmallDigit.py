@@ -1,0 +1,12 @@
+X = input()
+
+if X.isdigit():
+    print("IS DIGIT")
+
+elif X.isalpha():   # Alphabet check
+    print("ALPHA")
+
+    if X.isupper():
+        print("IS CAPITAL")
+    else:
+        print("IS SMALL")
